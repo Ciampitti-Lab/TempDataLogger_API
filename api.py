@@ -13,7 +13,7 @@ client = MongoClient('mongodb+srv://GustavoSantiago11:Trichoderm%4011@validation
 db = client['Validation'] # Remote database's database name
 collection = db['SoilTemp'] # Collection name
 
-@app.route('/store', methods=['POST'])
+@app.route('/L6OLaOdyFLLvj7DLyeeeFpfFw61i9gWps2tKexzK1m8Sl1cG736SxqGCG76odf83/store', methods=['POST'])
 #Function to store data
 def store():
 
@@ -25,7 +25,7 @@ def store():
         "message": "Success"
     })
 
-@app.route('/obtain', methods=['GET'])
+@app.route('/L6OLaOdyFLLvj7DLyeeeFpfFw61i9gWps2tKexzK1m8Sl1cG736SxqGCG76odf83/obtain', methods=['GET'])
 #Function to get data
 def obtain():
 
