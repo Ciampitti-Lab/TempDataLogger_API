@@ -9,11 +9,11 @@ app = Flask(__name__)
 CORS(app)
 
 # Information of the mongoDB database
-client = MongoClient('mongodb+srv://GustavoSantiago11:Trichoderm%4011@validation.oo6sxwf.mongodb.net/')  # Remote database URL
-db = client['Validation'] # Remote database's database name
-collection = db['SoilTemp'] # Collection name
+client = MongoClient('************')  # Remote database URL
+db = client['******'] # Remote database's database name
+collection = db['*******'] # Collection name
 
-@app.route('/L6OLaOdyFLLvj7DLyeeeFpfFw61i9gWps2tKexzK1m8Sl1cG736SxqGCG76odf83/store', methods=['POST'])
+@app.route('/store', methods=['POST'])
 #Function to store data
 def store():
 
@@ -25,7 +25,7 @@ def store():
         "message": "Success"
     })
 
-@app.route('/L6OLaOdyFLLvj7DLyeeeFpfFw61i9gWps2tKexzK1m8Sl1cG736SxqGCG76odf83/obtain', methods=['GET'])
+@app.route('/obtain', methods=['GET'])
 #Function to get data
 def obtain():
 
