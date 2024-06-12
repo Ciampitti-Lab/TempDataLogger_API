@@ -20,7 +20,7 @@ Run this to check if the image was successfully created:
 
 `docker images`
 
-Lastly, to run the following to run the container:
+Lastly, run the following to run the container:
 
 `docker run -d -p 80:5000 soiltemp:1.0`
 
