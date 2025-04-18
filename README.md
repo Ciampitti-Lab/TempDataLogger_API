@@ -1,5 +1,9 @@
 # Temperature Data Logger API
 
+## Contributors
+
+- Gustavo Nocera Santiago ([@GustavoSantiago113](https://github.com/GustavoSantiago113))
+
 ## Purpose
 
 This python code using Flask framework was developed to generate a simple API for the [Temperature Data Logger](https://github.com/GustavoSantiago113/Soil_Temperature_Datalogger). It is capable of doing POST and GET requests to a MongoDB database previously configured.
